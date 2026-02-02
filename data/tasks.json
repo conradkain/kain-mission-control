@@ -1,0 +1,126 @@
+{
+  "tasks": [
+    {
+      "id": "mc_setup",
+      "title": "Mission Control setup (GitHub Pages)",
+      "description": "Track setup steps for the AI dashboard. This is the system that reports Kain + sub\u2011agent activity.",
+      "status": "in_progress",
+      "project": "ops",
+      "tags": [
+        "setup",
+        "dashboard"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Create GitHub repo and push dashboard",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Enable GitHub Pages",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "Verify public URL loads",
+          "done": false
+        }
+      ],
+      "priority": "high",
+      "comments": [
+        {
+          "author": "Kain",
+          "text": "Repo created and GitHub Pages enabled. URL: https://conradkain.github.io/kain-mission-control/",
+          "timestamp": "2026-02-02T20:20:00Z"
+        }
+      ],
+      "createdAt": "2026-02-02T20:00:00Z"
+    },
+    {
+      "id": "cti_readonly",
+      "title": "CTI read\u2011only scan for Delegate items",
+      "description": "Daily scan of CTI for Mode=Delegate items; use as autonomous task queue (no edits to CTI).",
+      "status": "backlog",
+      "project": "ops",
+      "tags": [
+        "monday",
+        "cti"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Locate CTI board ID",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Pull items & filter Mode=Delegate",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Create initial delegate queue",
+          "done": false
+        }
+      ],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-02-02T20:05:00Z"
+    },
+    {
+      "id": "subagent_ops",
+      "title": "Sub\u2011agent operating model (minimal + adaptive)",
+      "description": "Start with functional agents (research, writing, coding) and add domain agents only when volume justifies it.",
+      "status": "backlog",
+      "project": "ops",
+      "tags": [
+        "subagents"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Define minimal roster + scopes",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Set reporting format into Mission Control",
+          "done": false
+        }
+      ],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-02-02T20:10:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "ops",
+      "name": "Ops",
+      "color": "#10b981",
+      "icon": "\ud83e\udded"
+    }
+  ],
+  "activities": [
+    {
+      "type": "created",
+      "actor": "Kain",
+      "task": "Mission Control setup (GitHub Pages)",
+      "time": "just now"
+    },
+    {
+      "type": "created",
+      "actor": "Kain",
+      "task": "CTI read\u2011only scan for Delegate items",
+      "time": "just now"
+    },
+    {
+      "type": "created",
+      "actor": "Kain",
+      "task": "Sub\u2011agent operating model (minimal + adaptive)",
+      "time": "just now"
+    }
+  ],
+  "lastUpdated": "2026-02-02T20:12:00Z"
+}
