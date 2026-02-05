@@ -3,7 +3,7 @@
     {
       "id": "mc_setup",
       "title": "Mission Control setup (GitHub Pages)",
-      "description": "Track setup steps for the AI dashboard. This is the system that reports Kain + sub\u2011agent activity.",
+      "description": "Track setup steps for the AI dashboard. This is the system that reports Kain + sub‑agent activity.",
       "status": "in_progress",
       "project": "ops",
       "tags": [
@@ -39,7 +39,7 @@
     },
     {
       "id": "cti_readonly",
-      "title": "CTI read\u2011only scan for Delegate items",
+      "title": "CTI read‑only scan for Delegate items",
       "description": "Daily scan of CTI for Mode=Delegate items; use as autonomous task queue (no edits to CTI).",
       "status": "backlog",
       "project": "ops",
@@ -70,7 +70,7 @@
     },
     {
       "id": "subagent_ops",
-      "title": "Sub\u2011agent operating model (minimal + adaptive)",
+      "title": "Sub‑agent operating model (minimal + adaptive)",
       "description": "Start with functional agents (research, writing, coding) and add domain agents only when volume justifies it.",
       "status": "backlog",
       "project": "ops",
@@ -92,6 +92,40 @@
       "priority": "medium",
       "comments": [],
       "createdAt": "2026-02-02T20:10:00Z"
+    },
+    {
+      "id": "daily_security_audit",
+      "title": "Daily security audit auto-run (06:00 MT)",
+      "description": "Run /home/kain/clawd/bin/security_audit.py daily at 06:00 America/Edmonton and post summary to Security topic (thread 308). Include explanation + recommendation if status not SAFE.",
+      "status": "permanent",
+      "project": "ops",
+      "tags": [
+        "security",
+        "audit",
+        "cron"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Ensure cron exists + posts to thread 308",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Include explanation + recommendation when status != SAFE",
+          "done": true
+        }
+      ],
+      "priority": "high",
+      "comments": [
+        {
+          "id": "c1",
+          "author": "Kain",
+          "text": "Added as recurring task after enabling auto-run cron.",
+          "createdAt": "2026-02-05T14:45:19.136932Z"
+        }
+      ],
+      "createdAt": "2026-02-05T14:45:19.136932Z"
     }
   ],
   "projects": [
@@ -99,7 +133,7 @@
       "id": "ops",
       "name": "Ops",
       "color": "#10b981",
-      "icon": "\ud83e\udded"
+      "icon": "🧭"
     }
   ],
   "activities": [
@@ -112,15 +146,15 @@
     {
       "type": "created",
       "actor": "Kain",
-      "task": "CTI read\u2011only scan for Delegate items",
+      "task": "CTI read‑only scan for Delegate items",
       "time": "just now"
     },
     {
       "type": "created",
       "actor": "Kain",
-      "task": "Sub\u2011agent operating model (minimal + adaptive)",
+      "task": "Sub‑agent operating model (minimal + adaptive)",
       "time": "just now"
     }
   ],
-  "lastUpdated": "2026-02-02T20:12:00Z"
+  "lastUpdated": "2026-02-05T14:45:19.136932Z"
 }
