@@ -126,6 +126,44 @@
         }
       ],
       "createdAt": "2026-02-05T14:45:19.136932Z"
+    },
+    {
+      "id": "ID-0107",
+      "title": "Build and LLM/SEO optimize personal website",
+      "description": "Design and build personal website; domains already purchased; optimize for SEO/LLM discoverability.",
+      "status": "in_progress",
+      "project": "personal",
+      "tags": [
+        "website",
+        "seo",
+        "llm",
+        "monday"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Review capture details and clarify requirements",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Draft plan document (scope, assumptions, steps, questions)",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Create workspace folder and gather assets",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Produce v1 deliverable and place in outbox",
+          "done": false
+        }
+      ],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-02-09T00:04:08.693355Z"
     }
   ],
   "projects": [
@@ -133,6 +171,12 @@
       "id": "ops",
       "name": "Ops",
       "color": "#10b981",
+      "icon": "🧭"
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "color": "#8b5cf6",
       "icon": "🧭"
     }
   ],
@@ -154,7 +198,61 @@
       "actor": "Kain",
       "task": "Sub‑agent operating model (minimal + adaptive)",
       "time": "just now"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0069 Macro writing/research structure rules template",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0037 Two-AI truth-checking research workflow",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0076 Bitcoin thesis",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0038 Autonomous multi-AI overnight execution",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0085 Research futures mechanics and leverage alternatives",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0042 Define personal value add (X factor)",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0050 Allocator learning plan: credit + flows + FX",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "started",
+      "actor": "Kain",
+      "task": "ID-0067 Macro writing: Alberta power + datacenter opportunity/challenge",
+      "time": "2026-02-08 01:28"
+    },
+    {
+      "type": "created",
+      "actor": "Kain",
+      "task": "Build and LLM/SEO optimize personal website",
+      "time": "2026-02-09 00:04"
     }
   ],
-  "lastUpdated": "2026-02-05T14:45:19.136932Z"
+  "lastUpdated": "2026-02-09T00:04:08.693397Z"
 }
